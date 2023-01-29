@@ -3,7 +3,15 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <footer>
+        Coded by Eljana Palodhi{" "}
+        <a
+          href="https://github.com/eljanaPalodhi/weather-react-app"
+          target="_blank"
+        >
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
