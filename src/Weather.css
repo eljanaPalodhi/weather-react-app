@@ -1,0 +1,17 @@
+.Weather {
+  border: 1px solid rgb(31, 32, 24, 0.2);
+  background-color: rgb(31, 32, 24, 0.1);
+
+  border-radius: 8px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.Weather h1 {
+  font-size: 45px;
+  color: #0b5ed7;
+}
+.Weather li {
+  font-size: 18px;
+  list-style: none;
+}
