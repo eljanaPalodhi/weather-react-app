@@ -19,7 +19,7 @@ export default function App() {
         </a>{" "}
         Coded by Eljana Palodhi{" "}
         <a
-          href=" https://comfy-torte-d95338.netlify.app/"
+          href=" https://benevolent-paprenjak-9d51c9.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >

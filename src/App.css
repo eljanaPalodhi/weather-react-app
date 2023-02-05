@@ -1,10 +1,16 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 .App {
   background-image: url("sky.png");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: rgb(118, 122, 119);
+  color: rgb(47, 65, 47);
   font-family: "Times New Roman", Times, serif;
   margin: 30px;
 }
@@ -22,16 +28,15 @@
 
 .container {
   background-image: url("sky.png");
+
+  border-radius: 8px;
 }
 .App footer {
-  font-size: 18px;
-  margin: 10px 0;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  font-size: 16px;
+  position: fixed;
   left: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
   text-align: center;
 }

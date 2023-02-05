@@ -1,6 +1,5 @@
 .Weather {
-  border: 1px solid rgb(31, 32, 24, 0.2);
-  background-color: rgb(31, 32, 24, 0.1);
+  background-color: rgb(255, 255, 255, 0.3);
 
   border-radius: 8px;
   margin: 30px;
@@ -8,6 +7,8 @@
 }
 
 .Weather h1 {
+  margin-top: 30px;
+  margin-left: 30px;
   font-size: 45px;
   color: #0b5ed7;
 }
