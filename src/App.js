@@ -18,7 +18,11 @@ export default function App() {
           open-sourced on GitHub
         </a>{" "}
         Coded by Eljana Palodhi{" "}
-        <a href=" " target="_blank" rel="noopener noreferrer">
+        <a
+          href=" https://comfy-torte-d95338.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           Hosted on Netlify
         </a>
