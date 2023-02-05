@@ -13,11 +13,12 @@ export default function App() {
         <a
           href="https://github.com/eljanaPalodhi/weather-react-app"
           target="_blank"
+          rel="noopener noreferrer"
         >
           open-sourced on GitHub
-        </a>
+        </a>{" "}
         Coded by Eljana Palodhi{" "}
-        <a href=" " target="_blank">
+        <a href=" " target="_blank" rel="noopener noreferrer">
           {" "}
           Hosted on Netlify
         </a>
