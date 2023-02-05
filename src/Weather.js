@@ -47,24 +47,21 @@ export default function Weather(props) {
               <input
                 type="search"
                 placeholder="Enter a city..."
-                className="form-control
-            "
-              />
-            </div>
-            <div className="col-3">
-              <input
-                type="submit"
-                value="search"
-                className="btn btn-primary"
+                className="form-control "
+                autoFocus="on"
                 onChange={handleCityChange}
               />
             </div>
+            <div className="col-3">
+              <input type="submit" value="search" className="btn btn-primary" />
+            </div>
           </div>
         </form>
-        <WeatherInfo />
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {
+    search();
     return "Loading...";
   }
 }
